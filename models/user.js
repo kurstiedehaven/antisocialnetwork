@@ -8,6 +8,7 @@ const userSchema = new Schema(
             required: true,
             trim: true
         },
+        // worried about validation revisit later
         email: {
             type: String,
             required: true,
